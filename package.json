@@ -49,7 +49,7 @@
     "cp:fulltestmocha": "codeceptjs run --steps --reporter mochawesome",
     "eslint.fix": "eslint -c ./.eslintrc src/**/*.js --fix",
     "eslint": "eslint -c ./.eslintrc src/**/*.js",
-    "start": "karma start config/karma.conf.js --browsers Chrome --log-level debug",
+    "start": "karma start config/karma.conf.js --browsers Chrome --log-level debug"
   },
   "license": "MIT",
   "engines": {
